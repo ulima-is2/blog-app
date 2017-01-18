@@ -6,24 +6,41 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" 
               href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" >
+        <style>
+            #logo_ulima{
+                height: 40pt
+            }
+            .titulo{
+                margin-left: 10pt;
+                font-size: 23pt
+            }
+        </style>
     </head>
     <body class="container">
         <div>
             <!-- Cabecera del sitio -->
+            <div class="well">
+                <img id="logo_ulima" 
+                                 alt="Brand" 
+                                 src="https://upload.wikimedia.org/wikipedia/commons/0/0e/ULIMA_logo.png">
+                <span class="titulo">UL - Blog App</span>
+            </div>
+            
         </div>
         <div class="row">
-            <div class="col-md-4">
+            <div class="col-md-3">
                 <ul class="nav nav-pills nav-stacked">
                     <li role="presentation" class="active"><a href="#">Ver Posts</a></li>
                     <li role="presentation"><a href="#">Publicar Post</a></li>
                     <li role="presentation"><a href="#">Ayuda</a></li>
                 </ul>
             </div>
-            <div class="col-md-10">Contenido</div>
+            <div class="col-md-9">Contenido</div>
         </div>
         <div>
             <!-- Footer del sitio -->
         </div>
+        <script src="https://code.jquery.com/jquery-3.1.1.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     </body>
 </html>
